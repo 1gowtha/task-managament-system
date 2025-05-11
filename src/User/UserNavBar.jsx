@@ -1,5 +1,5 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import './user.css';
+import './User.css'; // use correct case
 import UserHome from './UserHome';
 import UserProfile from './UserProfile';
 import UpdateProfile from './UpdateProfile';

@@ -1,0 +1,212 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(45deg, #060606, #000000);
+    padding: 15px 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+    position: relative;
+  }
+  
+  .nav-links a,
+  .nav-links span {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .nav-links a:hover,
+  .nav-links span:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 150px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-menu li {
+    display: block;
+  }
+  
+  .dropdown-menu a {
+    color: #333;
+    padding: 10px 15px;
+  }
+  
+  .dropdown-menu a:hover {
+    background: #008CBA;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .not-found-container {
+    text-align: center;
+  }
+  
+  
+  table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background: #ffffff;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+  }
+  
+  thead {
+      background: linear-gradient(45deg, #4A90E2, #0B60B0);
+      color: white;
+  }
+  
+  thead th {
+      padding: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+  
+  tbody tr {
+      border-bottom: 1px solid #ddd;
+      transition: background 0.3s ease-in-out;
+  }
+  
+  tbody tr:hover {
+      background: rgba(161, 45, 51, 0.1);
+  }
+  
+  td {
+      padding: 12px;
+      color: #333;
+  }
+  
+  tbody tr:nth-child(even) {
+      background: #f9f9f9;
+  }
+  
+  /* Responsive Table */
+  @media screen and (max-width: 768px) {
+      table {
+          display: block;
+          overflow-x: auto;
+          white-space: nowrap;
+      }
+  
+      td, th {
+          padding: 10px;
+      }
+  }
+  
+  button 
+  {
+    background-color: red;
+    color: white; 
+    border: black;   
+    padding: 10px 20px;  
+    text-align: center;  
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px;    
+    margin: 4px 2px;     
+    cursor: pointer;       
+    border-radius: 5px;    
+    transition: background-color 0.3s ease;
+  }
+
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .google-login-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .or-divider::before,
+  .or-divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .or-divider::before {
+    margin-right: 10px;
+  }
+  
+  .or-divider::after {
+    margin-left: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #3367d6;
+  }

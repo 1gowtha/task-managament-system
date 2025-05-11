@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import config from '../config';
 import { useAuth } from '../contextapi/AuthContext';
-import './user.css';
+import './User.css';
 
 export default function UserLogin() {
   const [formData, setFormData] = useState({
